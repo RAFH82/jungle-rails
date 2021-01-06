@@ -48,10 +48,10 @@
       <% end %>
     </div>
   <% else %>
-    <div>
+    <div class="alert alert-primary text-center">
       <h4>Oh noes, it looks like your cart is empty! Kindly add some items first.</h4>
+      <%= link_to "Back to main", root_path %>
     </div>
-    <%= link_to "Back to main", root_path %>
   <% end %>
   </div>
 
